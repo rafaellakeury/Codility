@@ -16,27 +16,15 @@ namespace CodilityLessons.PrefixSums
 				{"G", 3},
 				{"T", 4}
 			};
-			var dnaSequence = S.ToCharArray();
-			var dnaSequenceValues = dnaSequence.Select(x => nucleotidesDictionary.First(y => y.Key.Equals(x.ToString())).Value)
-				.ToArray();
+			var dnaSequence = S.ToCharArray(); //CAGCCTA
 
 			for (int i = 0; i < P.Length; i++)
 			{
-				var pPosition = P[i];
-				var qPosition = Q[i];
-				var smaller = dnaSequenceValues[pPosition];
-				for (int j = pPosition; j <= qPosition; j++)
-				{
-					if (smaller > dnaSequenceValues[j])
-					{
-						smaller = dnaSequenceValues[j];
-					}
-				}
+				var subArray = dnaSequence.ToList().GetRange(P[i], Q[i]);
+				var smaller = subArray.OrderBy(x => x).ToList().First();
 				result.Add(smaller);
 			}
-
 			return result.ToArray();
 		}
-
 	}
 }
