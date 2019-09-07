@@ -1,0 +1,7 @@
+C:\Users\Rafa\Documents\Visual Studio 2017\Projects\Codility\Codility\bin\Debug\Codility.exe.config
+C:\Users\Rafa\Documents\Visual Studio 2017\Projects\Codility\Codility\bin\Debug\Codility.exe
+C:\Users\Rafa\Documents\Visual Studio 2017\Projects\Codility\Codility\bin\Debug\Codility.pdb
+C:\Users\Rafa\Documents\Visual Studio 2017\Projects\Codility\Codility\obj\Debug\Codility.csprojAssemblyReference.cache
+C:\Users\Rafa\Documents\Visual Studio 2017\Projects\Codility\Codility\obj\Debug\Codility.csproj.CoreCompileInputs.cache
+C:\Users\Rafa\Documents\Visual Studio 2017\Projects\Codility\Codility\obj\Debug\Codility.exe
+C:\Users\Rafa\Documents\Visual Studio 2017\Projects\Codility\Codility\obj\Debug\Codility.pdb
