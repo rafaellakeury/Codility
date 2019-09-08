@@ -1,0 +1,11 @@
+C:\Users\Rafa\Documents\Visual Studio 2017\Projects\Codility\CodilityLessons\bin\Debug\netcoreapp2.1\CodilityLessons.deps.json
+C:\Users\Rafa\Documents\Visual Studio 2017\Projects\Codility\CodilityLessons\bin\Debug\netcoreapp2.1\CodilityLessons.runtimeconfig.json
+C:\Users\Rafa\Documents\Visual Studio 2017\Projects\Codility\CodilityLessons\bin\Debug\netcoreapp2.1\CodilityLessons.runtimeconfig.dev.json
+C:\Users\Rafa\Documents\Visual Studio 2017\Projects\Codility\CodilityLessons\bin\Debug\netcoreapp2.1\CodilityLessons.dll
+C:\Users\Rafa\Documents\Visual Studio 2017\Projects\Codility\CodilityLessons\bin\Debug\netcoreapp2.1\CodilityLessons.pdb
+C:\Users\Rafa\Documents\Visual Studio 2017\Projects\Codility\CodilityLessons\obj\Debug\netcoreapp2.1\CodilityLessons.csprojAssemblyReference.cache
+C:\Users\Rafa\Documents\Visual Studio 2017\Projects\Codility\CodilityLessons\obj\Debug\netcoreapp2.1\CodilityLessons.csproj.CoreCompileInputs.cache
+C:\Users\Rafa\Documents\Visual Studio 2017\Projects\Codility\CodilityLessons\obj\Debug\netcoreapp2.1\CodilityLessons.AssemblyInfoInputs.cache
+C:\Users\Rafa\Documents\Visual Studio 2017\Projects\Codility\CodilityLessons\obj\Debug\netcoreapp2.1\CodilityLessons.AssemblyInfo.cs
+C:\Users\Rafa\Documents\Visual Studio 2017\Projects\Codility\CodilityLessons\obj\Debug\netcoreapp2.1\CodilityLessons.dll
+C:\Users\Rafa\Documents\Visual Studio 2017\Projects\Codility\CodilityLessons\obj\Debug\netcoreapp2.1\CodilityLessons.pdb
