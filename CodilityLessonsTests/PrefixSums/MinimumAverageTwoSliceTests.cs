@@ -9,7 +9,7 @@ namespace CodilityLessons.PrefixSums
 		public void TestBasicCase()
 		{
 			//Given
-			var baseCaseArray = new int[] {4, 2, 2, 5,1, 5, 8};
+			var baseCaseArray = new int[] {4, 2, 2, 5, 1, 5, 8};
 			var expectedResult = 1;
 			var minimumAverageTwoSlice = new MinimumAverageTwoSlice();
 
@@ -28,6 +28,21 @@ namespace CodilityLessons.PrefixSums
 			var expectedResult = 2;
 			var minimumAverageTwoSlice = new MinimumAverageTwoSlice();
 			
+			//When
+			var actualResult = minimumAverageTwoSlice.Solution(baseCaseArray);
+
+			//Then
+			Assert.AreEqual(expectedResult, actualResult);
+		}
+
+		[Test]
+		public void BestSliceHasLenghtOf3SecondCase()
+		{
+			//Given
+			var baseCaseArray = new int[] { 10, 10, -1, 2, 4, -1, 2, -1 };
+			var expectedResult = 5;
+			var minimumAverageTwoSlice = new MinimumAverageTwoSlice();
+
 			//When
 			var actualResult = minimumAverageTwoSlice.Solution(baseCaseArray);
 
