@@ -6,64 +6,6 @@ namespace CodilityLessons.PrefixSums
 	{
 		public int Solution(int[] A)
 		{
-			var smallestIndex = 0;
-			double smallestValue = Int32.MaxValue;
-			for (int i = 0; i< A.Length-1; i++)
-			{
-				double smallestSliceOfTheIndex = Int32.MaxValue;
-				var denominatorCount = 2;
-				var accumulatedValue = A[i];
-				for(int j = i+1; j< A.Length; j++)
-				{
-					accumulatedValue += A[j];
-					double division = (double) accumulatedValue / denominatorCount;
-					if(division < smallestSliceOfTheIndex)
-					{
-						smallestSliceOfTheIndex = division;
-					}
-					denominatorCount++;
-				}
-				if(smallestSliceOfTheIndex < smallestValue)
-				{
-					smallestIndex = i;
-					smallestValue = smallestSliceOfTheIndex;
-				}
-			}
-			return smallestIndex;
-		}
-
-		public int Solution2(int[] A)
-		{
-			var result = 0;
-			double smallestValue = Int32.MaxValue;
-			double currentAvg;
-			for(int i  = 0; i < A.Length-2; i++)
-			{
-				currentAvg = (double) A[i] + A[i + 1] / 2;
-				if (currentAvg < smallestValue)
-				{
-					result = i;
-					smallestValue = currentAvg;
-				}
-
-				currentAvg = (double) A[i] + A[i + 1] + A[i + 2] / 3;
-				if (currentAvg < smallestValue)
-				{
-					result = i;
-					smallestValue = currentAvg;
-				}
-			}
-			currentAvg = (double)(A[A.Length - 2] + A[A.Length - 1]) / 2;
-			if(currentAvg < smallestValue)
-			{
-				result = A.Length - 2;
-				smallestValue = currentAvg;
-			}
-			return result;
-		}
-
-		public int Solution3(int[] A)
-		{
 			int minSliceIndex = 0;
 			int N = A.Length;
 			int[] sums = new int[N + 1];
