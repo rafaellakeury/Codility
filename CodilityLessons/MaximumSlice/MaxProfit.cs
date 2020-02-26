@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using System.Linq;
 
 namespace CodilityLessons.MaximumSlice
@@ -18,46 +17,6 @@ namespace CodilityLessons.MaximumSlice
                 maxGlobal = Math.Max(maxGlobal, maxLocal);
             }
             return maxGlobal;
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        public int bla(int[] A)
-        {
-            var list = A.ToList();
-            if(list == null || list.Count <= 1)
-                return 0;
-
-            while(list.Count > 1)
-            {
-                int maxValue = list.Max();
-                int minValue = list.Min();
-                int maxIndex = list.IndexOf(maxValue);
-                int minIndex = list.IndexOf(minValue);
-
-                if(maxIndex > minIndex)
-                    return maxValue - minValue;
-                else
-                {
-                    list.RemoveAt(maxIndex);
-                    if(minIndex == list.Count)
-                        list.RemoveAt(minIndex-1);
-                }
-            }
-            return 0;
         }
     }
 }
