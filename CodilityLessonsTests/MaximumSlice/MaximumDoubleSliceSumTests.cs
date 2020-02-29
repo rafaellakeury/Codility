@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 namespace CodilityLessonsTests.MaximumSlice
 {
-	[TestFixture]    
+	[TestFixture]
     public class MaximumDoubleSliceSumTests
     {
         [Test]
